@@ -1,0 +1,20 @@
+{
+    "title": "Wan Animate Face/Body Swap",
+    "description": "WanAnimate with ReActor face swap: animate any character from a motion reference video, then swap the face to a desired identity using ReActor + InsightFace. Supports pre-swap (before generation), post-swap (after generation), or both modes.",
+    "type": "serverless",
+    "category": "video",
+    "iconUrl": "https://github.com/wlsdml1114/Engui_Studio/blob/main/assets/logo.png?raw=true",
+
+    "config": {
+      "runsOn": "GPU",
+      "containerDiskInGb": 80,
+
+      "gpuCount": 1,
+      "gpuIds": "ADA_48,ADA_48_PRO,A100_SXM4_80GB,A100_PCIE_80GB",
+      "allowedCudaVersions": [
+        "12.8",
+        "12.7",
+        "12.6"
+      ]
+    }
+}
