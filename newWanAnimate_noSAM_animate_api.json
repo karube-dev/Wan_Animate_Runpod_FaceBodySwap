@@ -222,7 +222,7 @@
     },
     "class_type": "ImageResizeKJv2",
     "_meta": {
-      "title": "Resize Image v2"
+      "title": "Resize Image v2 (divisible_by=15 for animate mode)"
     }
   },
   "65": {
